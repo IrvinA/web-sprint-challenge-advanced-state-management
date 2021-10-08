@@ -48,7 +48,7 @@ const reducer = (state = initialState, action)=>{
                 ...state,
                 smurfs: [],
                 isLoading: false,
-                error: `${state.error} ${action.payload}`
+                error: `${action.payload}`
             }
         default:
             return state;

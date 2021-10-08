@@ -13,7 +13,7 @@ import "./App.css";
 class App extends Component {
 
   componentDidMount() {
-    fetchSmurfs();
+    this.props.fetchSmurfs();
   }
 
   render() {
